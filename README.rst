@@ -6,7 +6,7 @@ Getting Started
 ---------------
 Grab the dependencies::
 
-    $ apt-get install redis-server rabbitmq-server build-essential virtualenv
+    $ apt-get install redis-server rabbitmq-server build-essential virtualenv python3-dev
 
 Check out netinfo to `/opt/`::
 
