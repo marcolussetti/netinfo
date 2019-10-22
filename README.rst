@@ -6,11 +6,11 @@ Getting Started
 ---------------
 Grab the dependencies::
 
-    $ apt-get install redis-server rabbitmq-server
+    $ apt-get install redis-server rabbitmq-server build-essential virtualenv
 
 Check out netinfo to `/opt/`::
 
-    $ cd /opt && git clone https://github.com/9b/netinfo.git
+    $ cd /opt && mkdir netinfo && chown <user>:<group> netninfo && git clone https://github.com/9b/netinfo.git netinfo
 
 Change directory to the `netinfo` working directory::
 
